@@ -23,4 +23,5 @@ export default function(){
     error.Rate.add(!success);   // counting error rate
 
     sleep(1/100);   // sleep(0.01), meaning the VU will pause for 0.01 seconds before starting the next iteration
+    // each VU can make approximately 1 / 0.01 = 100 requests per second
 }
